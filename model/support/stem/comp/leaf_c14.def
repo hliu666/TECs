@@ -1,0 +1,24 @@
+SNF Dataset: SNF Leaf Optical Properties, Cary-14
+Data Center: ORNL DAAC -- The DAAC for Biogeochemical Dynamics
+Data Center Contact: Merilyn Gentry   email:  mjg@ornl.gov
+                                      phone:  423-376-2655
+Source Dataset (SAS):        leaf_c14.ssd01
+ASCII Data File:             leaf_c14.dat     File Creation Date: 25SEP1996
+ASCII Data Definition File:  leaf_c14.def     File Creation Date: 25SEP1996
+****************************************************************************
+Variable Name  Long Name       SAS Type  Generic Type      Description
+1  obs_datc    OBS_DATE        $ 12      DATE              "Observation Date (Month dd, yyyy)"
+2  can_pos                     $ 10      CHAR(10)          "Canopy Position: upper/middle/lower/etc."
+3  tree_id                     $ 12      CHAR(12)          "Tree ID"
+4  speccode    SPECIES_CODE    $ 12      CHAR(12)          "Plant species code [see speccomm (Common Name) and spec_sci (Latin Name)]"
+5  plntpart    PLANT_PART      $ 12      CHAR(12)          "Portion of the plant measured (leaf/needle/bark/mosslitter)"
+6  obs_typc                    $ 1                         "Type code: R=reflectance/T=transmittance"
+7  obs_type    OBS_TYPE        $ 18      CHAR(18)          "The type of measurement: either top reflectance, bottom reflectance, top transmittance, or bottom transmittance"
+8  obs_view                    $ 6       CHAR(18)          "Instrument View: from top/bottom"
+9  stnddens                    $ 6       CHAR(6)           "Stand Density: high/medium/low"
+10 wavelen     WAVELENGTH      8         NUMBER(5,4)       "Wavelength (microns) at which the reflectance measurements were taken"
+11 reflect     REFLECTANCE     8         NUMBER(6,5)       "Reflectance, in fractional percentages"
+12 transmit                    8                           "Transmittance"
+13 snf_file    DATASET_ID      $ 12      CHAR(10)          "SNF spectral reflectance raw data file name containing coded information that has been interpreted and added to this data set as additional fields"
+14 speccomm    COMMON_NAME     $ 36      CHAR(20)          "Plant species common name"
+15 spec_sci    LATIN_NAME      $ 36      CHAR(25)          "The Latin (botanical) name of the species"

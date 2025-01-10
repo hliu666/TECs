@@ -1,0 +1,920 @@
+
+         SNF Leaf Optical Properties: Cary-14: Data Set Guide Document
+
+Summary:
+
+   Knowledge of the optical properties of the components of the forest
+   canopy is important to the understanding of how plants interact with
+   their environment and how this information may be used to determine
+   vegetation characteristics using remote sensing.
+
+   During the summers of 1983 and 1984, samples of the major components
+   of the boreal forest canopy (needles, leaves, branches, moss, litter)
+   were collected in the Superior National Forest (SNF) of Minnesota and
+   sent to the Johnson Space Center (JSC). At JSC, the spectral
+   reflectance and transmittance characteristics of the samples were
+   determined for wavelengths between .35 and 2.1 micrometers using the
+   Cary-14 radiometer. This report presents plots of these data as well
+   as averages to the Thematic Mapper Simulator (TMS) bands.
+
+   There were two main thrusts to the SNF optical properties study. The
+   first was to collect the optical properties of many of the components
+   of the boreal forest canopy. The second goal of the study was to
+   investigate the variability of optical properties within a species.
+   The results of these studies allow a comparison of the optical
+   properties of a variety of different species and a measure of the
+   variability within species. These data provide basic information
+   necessary to model canopy reflectance patterns.
+
+Table of Contents:
+
+    1. Data Set Overview
+    2. Investigator(s)
+    3. Theory of Measurements
+    4. Equipment
+    5. Data Acquisition Methods
+    6. Observations
+    7. Data Description
+    8. Data Organization
+    9. Data Manipulations
+   10. Errors
+   11. Notes
+   12. Application of the Data Set
+   13. Future Modifications and Plans
+   14. Software
+   15. Data Access
+   16. Output Products and Availability
+   17. References
+   18. Glossary of Terms
+   19. List of Acronyms
+   20. Document Information
+
+1. Data Set Overview:
+
+  Data Set Identification:
+
+   SNF Leaf Optical Properties: Cary-14.
+
+  Data Set Introduction:
+
+   During the summers of 1983 and 1984, samples of the major components
+   of the boreal forest canopy (needles, leaves, branches, moss, litter)
+   were collected in the Superior National Forest (SNF) of Minnesota and
+   sent to the Johnson Space Center (JSC). At JSC, the spectral
+   reflectance and transmittance characteristics of the samples were
+   determined for wavelengths between .35 and 2.1 micrometers using the
+   Cary-14 radiometer. This report presents plots of these data as well
+   as averages to the Thematic Mapper Simulator (TMS) bands.
+
+  Objective/Purpose:
+
+   There were two main thrusts to the SNF optical properties study. The
+   first was to collect the optical properties of many of the components
+   of the boreal forest canopy. The second goal of the study was to
+   investigate the variability of optical properties within a species.
+   The results of these studies allow a comparison of the optical
+   properties of a variety of different species and a measure of the
+   variability within species. These data provide basic information
+   necessary to model canopy reflectance patterns.
+
+  Summary of Parameters:
+
+   Canopy component reflectance and transmittance measured by Cary-14
+   spectometer.
+
+  Discussion:
+
+    Leaf Optical Properties Introduction
+
+   Knowledge of the optical properties of the components of the forest
+   canopy is important to the understanding of how plants interact with
+   their environment and how this information may be used to determine
+   vegetation characteristics using remote sensing.
+
+   During the summers of 1983 and 1984, samples of the major components
+   of the boreal forest canopy (needles, leaves, branches, moss, litter)
+   were collected in the Superior National Forest (SNF) of Minnesota and
+   sent to the Johnson Space Center (JSC). At JSC, the spectral
+   reflectance and transmittance characteristics of the samples were
+   determined for wavelengths between .35 and 2.1 micrometers using the
+   Cary-14 radiometer. This report presents plots of these data as well
+   as averages to the Thematic Mapper Simulator (TMS) bands.
+
+   There were two main thrusts to the SNF optical properties study. The
+   first was to collect the optical properties of many of the components
+   of the boreal forest canopy. The reflectance and transmittance
+   properties of the leaves and needles of eight major overstory tree
+   species and three understory shrubs were measured. Also, reflectance
+   measurements were made for the bark of several tree species, sphagnum
+   moss and leaf litter. The second goal of the study was to investigate
+   the variability of optical properties within a species. Measurements
+   of reflectance and transmittance of quaking aspen leaves and black
+   spruce needles were made at three levels in the canopy and for three
+   stand densities. The results of these studies allow a comparison of
+   the optical properties of a variety of different species and a measure
+   of the variability within species. These data provide basic
+   information necessary to model canopy reflectance patterns.
+
+    Methodology
+
+   The vegetation samples were collected in the SNF and placed in
+   zip-lock plastic bags. These bags were packed in cardboard boxes and
+   sent to JSC by priority mail. Samples were collected from late August
+   through September in 1983. In 1984 samples were collected May 23, June
+   25 and August 14 and mailed the same day. It took between three and
+   six days for the samples to reach JSC.
+
+   The handling of the samples at JSC evolved over time. In 1983 and
+   early 1984, the samples were stored in plastic bags and refrigerated
+   at JSC. Later, due to problems with too much wetness on the leaves,
+   the branches were not refrigerated and their ends were put in water to
+   keep the leaves alive.
+
+   The optical properties were measured using the Cary-14 system at JSC.
+   The Cary-14 has a wavelength range between 0.35 and 2.1 micrometers.
+   The sampling interval varies between 0.002 and 0.01 micrometers,
+   depending on the rate of change between the values in each sample
+   interval. Each measurement samples at approximately 250 different
+   wavelengths.
+
+   Optical property measurements were made for both the tops and bottoms
+   of leaves. When leaf top or bottom is refered to in these observations
+   it indicates the side of the leaf which is illuminated by the Cary-14.
+   For observing broad leaves, a sample of the leaf without holes or
+   visible defects was used, however, for needle leaves either a
+   collection of individual needles were aligned in the instrument holder
+   or a section of twig with needles attached was used.
+
+   The optical properties measured by the Cary-14 are provided in this
+   data set "SNF Leaf Optical Properties: Cary-14". Since the Cary-14
+   does not sample in exactly the same wavelengths in each measurement,
+   the data were resampled using a one-dimensional quasi-cubic hermite
+   interpolation before averaging. These Cary-14 reflectance and
+   transmittance values were then averaged to Thematic Mapper Simulator
+   wavelength bands and are provided in the data set "SNF Leaf Optical
+   Properties: TMS".
+
+    Results
+
+   Three species of broad leafed deciduous trees were sampled: paper
+   birch (Betula papyrifera), red maple (Acer rubum) and quaking aspen
+   (Populus tremuloides). In the visible spectral region (0.4 to 0.7 µm),
+   most of the radiation is absorbed by the leaf and little is reflected
+   or transmitted. Reflectance and transmittance minima occur at
+   approximately 0.45 and 0.65 µm due to chlorophyll absorption. The near
+   infrared region (0.7 to 1.3 µm) is characterized by very high
+   reflectance and transmittance and low absorptance. The internal
+   structure of the leaf determines the optical properties in this
+   region. The middle infrared (1.3 to 3.0 µm) is dominated by strong
+   water absorption bands at approximately 1.4 and 1.9 µm. Reflectance
+   and transmittance in the mid infrared is related to the amount of
+   water in the leaf.
+
+   The birch and maple leaves were all collected on the same day and
+   received the same treatment. The leaf top reflectance and
+   transmittance are very close for all four samples in all wavelengths
+   measured. However, there is a great deal of variation in the leaf
+   bottom transmittance. The differences in leaf optical properties for
+   these four samples do not seem to be related to the differences in
+   species or canopy height.
+
+   Quaking aspen leaves were sampled for three canopy heights and three
+   stand densities. When the aspen optical properties were plotted, a
+   striking differences between the optical properties of healthy and
+   diseased leaves was noted. The diseased leaves had a much lower
+   reflectance in both the near and mid infrared regions. This effect
+   occured even when the leaf appeared green. In one example, the leaf
+   sample was described as being "most uniform in color and clean", but,
+   once more, in the near and mid infrared the reflectance was much lower
+   than the healthy leaves. The diseased leaves also had a much higher
+   transmittance in all wavelength bands.
+
+   The leaf top reflectance for aspen show that in the visible region the
+   high density stand has a lower reflectance. In the infrared regions
+   the reflectances do not distinguish between stand density or crown
+   height. The mid infrared wavelengths show the most separability
+   between the different samples. The variability between different aspen
+   leaves is greater than the variability between the birch and maple
+   samples. The leaf top reflectances of the birch and maple match up
+   well with aspen from the high density stand in the visible. However,
+   aspen has a much higher reflectance in the near infrared. In the mid
+   infrared the birch and maple reflectances fall within the range of the
+   aspen, but the aspen tends to have a slightly higher reflectance.
+
+   The aspen leaf bottom reflectances tend to be higher than the leaf top
+   reflectances in all wavelengths. In the visible, this is readily seen
+   in the light color of the aspen leaf bottoms. The aspen leaf bottom
+   reflectances do not show any pattern due to canopy height or stand
+   density. The leaf bottom reflectance is similar between aspen, birch
+   and maple in the visible but in the infrared the aspen has the higher
+   leaf bottom reflectance.
+
+   Aspen leaf transmittance is slightly greater in the infrared for high
+   density stands versus low density stands. The maple and birch leaf
+   transmittances tend to be greater in all wavelengths than the aspen.
+
+   Bark reflectance for aspen varies greatly in all wavelengths. There
+   are two spectral reflectance patterns for the bark. The first pattern
+   has a steep jump in reflectance at 0.7 µm and high near infrared
+   reflectance values. The second bark reflectance pattern does not have
+   the jump at 0.7 µm and increases monotonically through the visible and
+   near infrared. Both bark types have similar patterns in the mid
+   infrared. The first type of bark tends to be found in the upper crown
+   of the aspen. The second type of bark is found low in the aspen canopy
+   suggesting that it is older bark.
+
+   Five species of needle leafed trees were sampled in this study: jack
+   pine (Pinus banksiana), red pine (Pinus resinosa), larch (Larix
+   laricina), balsam fir (Abies balsamea) and black spruce (Picea
+   glauca). While the reflectance pattern of the needle leafed trees is
+   similar to broad leaves, the reflectance of the needles is much more
+   variable in all wavelengths. The variability in needle reflectance is
+   not just a function of species since jack pine has both high and low
+   reflectance values. In the visible region, the red pine and larch
+   reflectances are similar to broad leaf reflectance, but fir and the
+   low value for jack pine are much less. In the near infrared plateau,
+   there are two depressions occuring around 1.0 and 1.2 µm. These
+   depressions are also present in broad leaves but are less pronounced.
+   Broad leaf reflectance in the near infrared falls in the middle of the
+   range of needle near infrared reflectances. In the mid infrared
+   region, broad leaf reflectance is much higher than that of needles.
+   The needle bottom reflectance has similar characteristics as the
+   needle top reflectance. In the visible region, fir has a greater
+   bottom reflectance than top reflectance.
+
+   Needle transmittance is much lower in all wavelengths than that of
+   broad leaves. While the reflectance of the bark of needle leafed
+   treesshows a great deal of variability, the pattern of the reflectance
+   is the same as that of aspen bark from the lower canopy. The needle
+   leaved tree bark does not show a jump at the visible-near infrared
+   boundary as does some of the aspen bark.
+
+   Several samples of black spruce needles were measured to look at the
+   variability of optical properties within a conifer species. Spruce
+   needle top reflectance falls mid range with other needle reflectances.
+   Within spruce, needles from high density stands have highest
+   reflectance in near and mid infrared. Needles from a middle density
+   stand have lower reflectance in the near and mid infrared, with
+   reflectances of needles from a low density stand being lowest in the
+   near infrared and about the same as the mid density needles in the mid
+   infrared. Spruce needle reflectance data taken in 1983 were of a
+   combination of both the tops and bottoms of the needles. The results
+   are comparable with the 1984 data in the near and mid infrared,
+   however the 1983 visible reflectances are much higher than the 1984
+   data. This is not due to the effects of needle bottom reflectance in
+   1983 samples since the 1984 needle bottom reflectances in the visible
+   are not much different than that of the needle tops and much lower
+   than the 1983 visible reflectances. Spruce needle reflectance in
+   comparison with aspen leaf reflectance is a little lower in the
+   visible, much lower in the near infrared, and greatly lower in the mid
+   infrared.
+
+   Spruce needle transmittance is slightly higher than other needle
+   transmittance in the visible and near infrared regions. In comparison
+   with aspen leaf transmittance, they are nearly equal in the visible,
+   spruce is slightly lower in the near infrared, and much lower in the
+   mid infrared.
+
+   Three species of understory shrubs were sampled: beaked hazel (Corylus
+   cornuta), labrador tea (Ledum groenlandicum) and leatherleaf
+   (Chamaedaphne calyculata). Only leaf top reflectance was determined
+   for labrador tea and leatherleaf. The labrador tea and leatherleaf
+   have very high reflectances in the near infrared compared to other
+   leaves or needles sampled. The hazel has much lower reflectance in the
+   near infrared. The water absorption bands at 1.4 and 1.9 µm are not
+   very deep for the hazel.
+
+   Sphagnum moss (Sphagnum spp.) reflectance is extremely variable in all
+   bands. The difference between samples may be caused by differences in
+   location, moisture or type of sphagnum. Background reflectance can
+   have a significant effect on the total canopy reflectance. If sphagnum
+   is the background, the reflectance may vary with place and time. This
+   variable background can be an important complication in the
+   understanding of reflectance images of the boreal forest regions.
+
+   In contrast to the sphagnum reflectance is the reflectance of aspen
+   leaf litter. The leaf litter reflectance is much different than that
+   of the sphagnum and appears to be more like the needle leafed tree
+   bark.
+
+  Related Data Sets:
+
+     * SNF Leaf Optical Properties: TMS
+     * SNF NS001-TMS Canopy Reflectance 1983-84
+     * Helicopter MMR Reflectance Data
+
+2. Investigator(s):
+
+  Investigator(s) Name and Title:
+
+   Dr. Forrest G. Hall
+   NASA Goddard Space Flight Center
+
+   Dr. K. Fred Huemmrich
+   NASA Goddard Space Flight Center
+
+   Dr. Donald E. Strebel
+   Versar, Inc.
+
+   Dr. Scott J. Goetz
+   University of Maryland
+
+   Ms. Jamie E. Nickeson
+   NASA Goddard Space Flight Center
+
+   Ms. K.D. Woods
+   NASA Goddard Space Flight Center
+
+   Dr. Celeste Jarvis
+   NASA Headquarters
+
+  Title of Investigation:
+
+   Biophysical, Morphological, Canopy Optical Property, and Productivity
+   Data on the Superior National Forest.
+
+  Contact Information:
+
+   Dr. Forrest G. Hall
+   NASA Goddard Space Flight Center
+   Code 923
+   Greenbelt, Maryland 20771
+   USA
+
+   Fax +1 (301) 286-0239
+   Telephone +1 (301) 286-2974
+   Email: fghall@ltpmail.gsfc.nasa.gov
+
+3. Theory of Measurements:
+
+   Not available.
+
+4. Equipment:
+
+  Sensor/Instrument Description:
+
+    Collection Environment:
+
+   Ground-based.
+
+    Source/Platform:
+
+   Field Investigation.
+
+    Source/Platform Mission Objectives:
+
+   Not available.
+
+    Key Variables:
+
+   Canopy component reflectance and transmittance measured by Cary-14
+   spectometer.
+
+    Principles of Operation:
+
+   Not available.
+
+    Sensor/Instrument Measurement Geometry:
+
+   Not available.
+
+    Manufacturer of Sensor/Instrument:
+
+   Not available.
+
+  Calibration:
+
+   Not available.
+
+5. Data Acquisition Methods:
+
+   Not available.
+
+6. Observations:
+
+  Data/Field Notes:
+
+   Not available.
+
+7. Data Description:
+
+  Spatial Characteristics:
+
+   The study area covered a 50 x 50 km area centered at approximately 48
+   degrees North latitude and 92 degrees West longitude in northeastern
+   Minnesota at the southern edge of the North American boreal forest.
+
+  Temporal Characteristics:
+
+   During the summers of 1983 and 1984, samples of the major components
+   of the boreal forest canopy (needles, leaves, branches, moss, litter)
+   were collected in the Superior National Forest (SNF) of Minnesota
+
+  Data Characteristics:
+
+  __________________________________________________________________________
+
+
+  Variable Name/ Long Name         SAS Type      Generic Type
+  Description
+  __________________________________________________________________________
+
+1  obs_datc    OBS_DATE                $ 12      DATE
+  "Observation Date (Month dd, yyyy)"
+  __________________________________________________________________________
+
+2  can_pos                             $ 10      CHAR(10)
+  "Canopy Position:
+   upper/middle/lower/etc."
+  __________________________________________________________________________
+
+3  tree_id                             $ 12      CHAR(12)
+  "Tree ID"
+  __________________________________________________________________________
+
+4  speccode    SPECIES_CODE            $ 12      CHAR(12)
+  "Plant species code [see speccomm
+   (Common Name) and spec_sci
+   (Latin Name)]"
+  __________________________________________________________________________
+
+5  plntpart    PLANT_PART              $ 12      CHAR(12)
+  "Portion of the plant measured
+   (leaf/needle/bark/mosslitter)"
+  __________________________________________________________________________
+
+6  obs_typc                            $ 1
+  "Type code:
+   R=reflectance/T=transmittance"
+  __________________________________________________________________________
+
+7  obs_type    OBS_TYPE                $ 18      CHAR(18)
+  "The type of measurement: either
+   top reflectance, bottom reflectance,
+   top transmittance, or bottom
+   transmittance"
+  __________________________________________________________________________
+
+8  obs_view                            $ 6       CHAR(18)
+  "Instrument View: from top/bottom"
+  __________________________________________________________________________
+
+9  stnddens                            $ 6       CHAR(6)
+  "Stand Density: high/medium/low"
+  __________________________________________________________________________
+
+10 wavelen     WAVELENGTH                8       NUMBER(5,4)
+  "Wavelength (microns) at which the
+   reflectance measurements were taken"
+  __________________________________________________________________________
+
+11 reflect     REFLECTANCE               8       NUMBER(6,5)
+  "Reflectance, in fractional percentages"
+  __________________________________________________________________________
+
+12 transmit                              8
+  "Transmittance"
+  __________________________________________________________________________
+
+13 snf_file    DATASET_ID             $ 12       CHAR(10)
+  "SNF spectral reflectance raw data
+   file name containing coded information
+   that has been interpreted and added
+   to this data set as additional fields"
+  __________________________________________________________________________
+
+14 speccomm    COMMON_NAME             $ 36      CHAR(20)
+  "Plant species common name"
+  __________________________________________________________________________
+
+15 spec_sci    LATIN_NAME              $ 36      CHAR(25)
+  "The Latin (botanical) name of the
+   species"
+     _________________________________________________________________
+
+  Sample Data Record:
+
+
+obs_datc          can_pos     tree_id     speccode    plntpart   obs_typc  obs_
+type
+obs_view    stnddens    wavelen   reflect   transmit   snf_file         speccom
+m
+spec_sci
+  __________________________________________________________________________
+
+"1983"            "upper"     "25"        "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.3509    0.05298       .      "a25h29rb.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"1983"            "upper"     "25"        "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.3607    0.05691       .      "a25h29rb.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"1983"            "upper"     "25"        "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.3719    0.05697       .      "a25h29rb.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"1983"            "upper"     "25"        "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.3839    0.0591        .      "a25h29rb.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"1983"            "upper"     "25"        "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.3899    0.06005       .      "a25h29rb.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"1983"            "upper"     "25"        "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.3981    0.06405       .      "a25h29rb.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"1983"            "upper"     "25"        "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.4056    0.06809       .      "a25h29rb.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"1983"            "upper"     "25"        "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.4139    0.07598       .      "a25h29rb.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"1983"            "upper"     "25"        "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.4191    0.08288       .      "a25h29rb.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"MAY 23,1984"     " "         " "         "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.7327    0.30309       .      "pt3l2b1r.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"MAY 23,1984"     " "         " "         "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.7402    0.31138       .      "pt3l2b1r.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"MAY 23,1984"     " "         " "         "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.7492    0.31766       .      "pt3l2b1r.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"MAY 23,1984"     " "         " "         "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.7605    0.32248       .      "pt3l2b1r.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"MAY 23,1984"     " "         " "         "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.7702    0.32773       .      "pt3l2b1r.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"MAY 23,1984"     " "         " "         "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.7777    0.33215       .      "pt3l2b1r.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"MAY 23,1984"     " "         " "         "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.786     0.33582       .      "pt3l2b1r.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"MAY 23,1984"     " "         " "         "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.7943    0.3393        .      "pt3l2b1r.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"MAY 23,1984"     " "         " "         "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.8018    0.34329       .      "pt3l2b1r.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"MAY 23,1984"     " "         " "         "POTR"      "LEAF"        "R"    "REF
+L/BOTTOM"
+"bottom"    "high"      0.8138    0.34735       .      "pt3l2b1r.dat"   "Aspen,
+ Trembling"
+"Populus Tr
+
+"1983"            "mixed"     "60"        "PIMA"      "NEEDLE"      "R"    "REF
+L (1983)"
+" "         " "         1.0132    0.51036       .      "s60h01r.dat"    "Spruce
+, Black"
+"Picea Mari
+
+"1983"            "mixed"     "60"        "PIMA"      "NEEDLE"      "R"    "REF
+L (1983)"
+" "         " "         1.0253    0.51332       .      "s60h01r.dat"    "Spruce
+, Black"
+"Picea Mari
+
+"1983"            "mixed"     "60"        "PIMA"      "NEEDLE"      "R"    "REF
+L (1983)"
+" "         " "         1.0388    0.51491       .      "s60h01r.dat"    "Spruce
+, Black"
+"Picea Mari
+
+"1983"            "mixed"     "60"        "PIMA"      "NEEDLE"      "R"    "REF
+L (1983)"
+" "         " "         1.053     0.51724       .      "s60h01r.dat"    "Spruce
+, Black"
+"Picea Mari
+
+"1983"            "mixed"     "60"        "PIMA"      "NEEDLE"      "R"    "REF
+L (1983)"
+" "         " "         1.0686    0.51996       .      "s60h01r.dat"    "Spruce
+, Black"
+"Picea Mari
+
+"1983"            "mixed"     "60"        "PIMA"      "NEEDLE"      "R"    "REF
+L (1983)"
+" "         " "         1.0807    0.51631       .      "s60h01r.dat"    "Spruce
+, Black"
+"Picea Mari
+     _________________________________________________________________
+
+   Footnote:
+   For presentation in this document, some padding blanks may have been
+       eliminated between columns in the Sample Data Record. Due to the
+       many fields in this data file, these columns will wrap while
+       viewing. The actual data files, however, are column delimited with
+       an adequate record length to prevent wrapping. See the Data Format
+       Section for conventions used for missing data values in the data
+       file.
+
+8. Data Organization:
+
+   Data are sorted by species code (speccode), observation date
+   (obs_datc), tree ID (tree_id), plant part (plntpart) and observation
+   type (obs_type). Key fields in each record are speccode, obs_datc,
+   tree_id and plntpart.
+
+  Data Granularity:
+
+   This data set consists of a single ASCII file containing reflectance
+   and transmittance of leaves, needles and bark of various species of
+   trees, with additional information on canopy position and stand
+   density.
+
+   A general description of data granularity as it applies to the IMS
+   appears in the EOSDIS Glossary.
+
+  Data Format:
+
+   The data files associated with this data set consist of numeric and
+   character fields of varying lengths aligned in columns. The first row
+   of each data file contains the 8 character SAS variable name that
+   links to the data format definition file. Character fields are
+   enclosed in double quotes and numeric fields are listed without
+   quotes.
+
+   Missing data values can be of two varieties:
+    1. Values that were identified as missing in the original data files.
+       Missing numeric values of this type are identified in these data
+       as -999.
+    2. Those holes that were created as a result of combining files that
+       contained a slightly different variable set. Missing values of
+       this type are identified in these data files as empty double
+       quotes for character fields and a single period, '.' for numeric
+       fields.
+
+9. Data Manipulations:
+
+   Not available.
+
+10. Errors:
+
+  Sources of Error:
+
+   Not available.
+
+  Quality Assessment:
+
+    Data Validation by Source:
+
+   Not available.
+
+    Confidence Level/Accuracy Judgment:
+
+   Not available.
+
+    Measurement Error for Parameters:
+
+   Not available.
+
+    Additional Quality Assessments:
+
+   Not available.
+
+    Data Verification by Data Center:
+
+   The Superior National Forest data was received from the Goddard Space
+   Flight Center in three media:
+     * As data dumps from the original Oracle SNF database maintained by
+       GSFC, transferred electronically from the GSFC system to the ORNL
+       system;
+     * As ASCII files that mirrored the tables published in the Tech
+       Memo; and
+     * As hard copy (Tech Memo).
+
+   Data from both electronic sources were input into SAS by ORNL DAAC
+   data management staff and compared using computer code developed to
+   process the SNF data. In many cases, the data values from both sources
+   were found to be identical. In some cases, however, differences were
+   identified and the providers of the data were consulted to resolve
+   inconsistencies.
+
+   Additionally, some variable columns were available in one source, but
+   not the other for various reasons. For example, some calculated
+   variables/columns were provided in the ASCII files (reflecting the
+   Tech Memo tables) that were not stored in the Oracle database for
+   purposes of space conservation.
+
+   For similar reasons, coded values were used for many of the site and
+   species identifier variables. A separate reference table was provided
+   to link the coded variable with its definition, e.g., the SPECIES_REF
+   file and the SITE_REF file.
+
+   The database produced by the ORNL DAAC is a hybrid product that is a
+   composite of data and information extracted from all three source
+   media. In data sets where coded variables were included, the code
+   definition variables have been added to improve usability of the data
+   set as a stand-alone product.
+
+   Therefore the ASCII files that are available through the ORNL DAAC
+   on-line search and order systems are output from a data set that is a
+   product of the essential core of numeric data provided by the data
+   source (GSFC), augmented with additional descriptive information
+   provided by GSFC and reorganized by the ORNL DAAC into a data
+   structure consistent with other similar data sets maintained by the
+   ORNL DAAC.
+
+11. Notes:
+
+  Limitations of the Data:
+
+   Not available.
+
+  Known Problems with the Data:
+
+   None known at this revision.
+
+  Usage Guidance:
+
+   Not available.
+
+  Any Other Relevant Information about the Study:
+
+   None.
+
+12. Application of the Data Set:
+
+   These data provide basic information necessary to model canopy
+   reflectance patterns.
+
+13. Future Modifications and Plans:
+
+   None known at this revision.
+
+14. Software:
+
+   Not available.
+
+15. Data Access:
+
+  Contact Information:
+
+   ORNL DAAC User Services
+   P.O. Box 2008
+   Mail Stop 6407
+   Oak Ridge National Laboratory
+   Oak Ridge, TN 37831-6407
+
+   Telephone: (423) 241-3952
+   FAX: (423) 574-4665
+
+   Email: ornldaac@ornl.gov
+
+  Data Center Identification:
+
+   EOSDIS Distributed Active Archive Center
+   P.O. Box 2008
+   Mail Stop 6407
+   Oak Ridge National Laboratory
+   Oak Ridge, TN 37831-6407
+   USA
+
+   Telephone: (423) 241-3952
+   FAX: (423) 574-4665
+
+   Email: ornldaac@ornl.gov
+
+  Procedures for Obtaining Data:
+
+   Users may place requests by letter, telephone, electronic mail, FAX,
+   or personal visit. Data is also available via the World Wide Web at
+   http://www-eosdis.ornl.gov.
+
+  Data Center Status/Plans:
+
+   The Superior National Forest Data is available from the ORNL DAAC.
+   Please contact the ORNL DAAC User Services Office for the most current
+   information about these data.
+
+16. Output Products and Availability:
+
+   Available online, as a computer FTP file (zipped or unzipped), on tape
+   or IBM-formatted diskettes.
+
+17. References:
+
+   Not available.
+
+  Archive/DBMS Usage Documentation.
+
+   Contact the EOS Distributed Active Archive Center (DAAC) at Oak Ridge
+   National Laboratory (ORNL), Oak Ridge, Tennessee (see the Data Center
+   Identification Section). Documentation about using the archive and/or
+   online access to the data at the ORNL DAAC is not available at this
+   revision.
+
+18. Glossary of Terms:
+
+   A general glossary for the DAAC is located at EOSDIS Glossary.
+
+19. List of Acronyms:
+
+   URL
+          Uniform Resource Locator
+
+   A general list of acronyms for the DAAC is available at
+   http://cdiac.esd.ornl.gov/cdiac/pns/acronyms.html.
+
+20. Document Information:
+
+  Document Revision Date:
+
+   October 10, 1996.
+
+  Document Review Date:
+
+   February 19, 1997.
+
+  Document ID:
+
+   ORNL-SNF_LEAFCARY.
+
+  Citation:
+
+   Please cite the following NASA Technical Memorandum 104568 in any work
+   or any publication using these data:
+
+   Hall, F.G., K.F. Huemmrich, D.E. Strebel, S.J. Goetz, J.E. Nickeson,
+   and K.D. Woods, July 1992. Biophysical, Morphological, Canopy Optical
+   Property, and Productivity Data From the Superior National Forest.
+   NASA Technical Memorandum 104568. National Aeronautics and Space
+   Administration, Washington, D.C. 20546.
+
+  Document Curator:
+
+   Donna O. Lambert
+   dlambert@daacs.esd.ornl.gov
+
+  Document Author: Merilyn J. Gentry
+  mjg@walden.rmt.utk.edu
+
+  Document URL:
+
+   http://www-eosdis.ornl.gov
+   /SNF/guides/leaf_optical_properties_cary14.html
+     _________________________________________________________________
+
+
+    SNF Home Page | Oak Ridge DAAC Home Page | ORNL Home Page
+    ORNL DAAC User Services Office: 423-241-3952; email
+    ornldaac@ornl.gov
+    Web Document Curator: Sarah Jennings, xqj@ornl.gov
+    Document Editor: Donna Lambert Revision Date: September 24, 1997
+    URL: http://www-eosdis.ornl.gov
+    /SNF/guides/leaf_optical_properties_cary14.html
+

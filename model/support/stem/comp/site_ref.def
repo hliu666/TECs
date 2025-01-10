@@ -1,0 +1,25 @@
+SNF Dataset: SNF Study Site Location Information File
+Data Center: ORNL DAAC -- The DAAC for Biogeochemical Dynamics
+Data Center Contact: Merilyn Gentry   email:  mjg@ornl.gov
+                                      phone:  423-376-2655
+Source Dataset (SAS):        site_ref.ssd01
+ASCII Data File:             site_ref.dat     File Creation Date: 24SEP1996
+ASCII Data Definition File:  site_ref.def     File Creation Date: 24SEP1996
+****************************************************************************
+Variable Name  Long Name       SAS Type  Generic Type      Description
+1  site_id     SITE_ID         8         NUMBER(4,0)       "Identification number or code for the site"
+2  plot_id     PLOT_ID         $  8      NUMBER(3,0)       "The identification of the plot number within the site"
+3  grid_id     GRID_ID         $  8      CHAR(5)           "Grid ID for sites collected in 1986 from  airphoto grid cell locations (see data file site_86.dat)"
+4  latitude    LATITUDE        8         NUMBER(10,6)      "Latitude (decimal degrees), increasing to the north"
+5  long        LONGITUDE       8         NUMBER(10,6)      "Longitude (decimal degrees), increasing to the east"
+6  elev        ELEVATION       8         NUMBER(5,1)       "Elevation of the site in feet above MSL"
+7  slope       SLOPE           8         NUMBER(4,1)       "The percent of topographic slope (0-100)"
+8  aspect      ASPECT          8         NUMBER(4,1)       "The degrees of topographic aspect (0-360 increasing eastward from the north)"
+9  area        AREA            8         NUMBER(5,0)       "The total combined surface area of the five plots that make up the site, in square meters"
+10 lat_c       LATITUDE        $ 16      NUMBER(10,6)      "Latitude (dd mm ss)"
+11 lon_c       LONGITUDE       $ 16      NUMBER(10,6)      "Longitude (dd mm ss)"
+12 northing    NORTHING        8         NUMBER(8,0)       "The UTM coordinate for northings (in meters from the equator along the meridian"
+13 easting     EASTING         8         NUMBER(7,0)       "The UTM coordinate in eastings (in meters from the central meridian)"
+14 estbl_by    ESTABLISHED_BY  $ 20      CHAR(20)          "Who established the site and/or who collected data there (either USBC, LORI, CELEST, GOETZ or OTHER)"
+15 tree_ht                     8                           "Estimate of the average canopy height (feet)"
+16 sitedesc    DESCRIPTION     $ 80      CHAR(40)          "A brief general description of the site, including the dominant type of vegetation cover (jack pine, aspen, etc.) and a range of dates defining when data was collected"

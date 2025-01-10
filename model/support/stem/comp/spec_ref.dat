@@ -1,0 +1,96 @@
+speccode        speccomm                                  spec_sci
+"ABBA"          "Fir, Balsam"                             "Abies Balsamea" 
+"ACRU"          "Maple, Red"                              "Acer Rubrum" 
+"ACSP"          "Maple, Mountain"                         "Acer Spicatum" 
+"ACTA"          "Baneberry"                               "Actaea Spp.  " 
+"ALCR"          "Alder, Green"                            "Alnus Crispa  " 
+"ALRU"          "Alder, Speckled"                         "Alnus Rubra  " 
+"AMEL"          "Juneberry"                               "Amelanchier Spp.  " 
+"ANGL"          "Bog Rosemary"                            "Andromeda Glaucophylla" 
+"ANQU"          "Wood Anemone"                            "Anemonequinquefolia" 
+"ARNU"          "Wild Sarsaparilla"                       "Aralia Nudicaulis" 
+"ASCA"          "Wild Ginger"                             "Asarum Canadense" 
+"ASMA"          "Big-leaved Aster"                        "Aster Macrophyllus" 
+"ATFE"          "Lady Fern"                               "Athyrium Felix-Femina" 
+"BEPA"          "Birch,  Paper"                           "Betula Papyrifera" 
+"BLIT"          "Brown Litter  "                         " " 
+"BLWT"          "Bellwort    "                           " " 
+"CHCA"          "Leatherleaf"                             "Chamaedaphne Calyculata" 
+"CLBO"          "Blue-bead Lily"                          "Clintonia Borealis" 
+"COAM"          "Hazelnut, American"                      "Corylus Americana" 
+"COCA"          "Bunchberry"                              "Cornus Canadensis" 
+"COCO"          "Hazelnut,  Beaked"                       "Corylus Cornuta" 
+"COGR"          "Gold-thread"                             "Coptis Groenlandica" 
+"COMP"          "Composites"                              "(Unidentified)  " 
+"COST"          "Red-osier Dogwood"                       "Cornus Stolonifera" 
+"DILO"          "Bush Honeysuckle"                        "Diervilla Lonicera " 
+"DRYO"          "Shield Fern"                             "Dryopteris Spp." 
+"EQUI"          "Horsetail"                               "Equisetum Spp." 
+"ERIO"          "Cotton Grass"                            "Eriophorum Spp." 
+"FRVE"          "Wood Strawberry"                         "Fragaria Vesea" 
+"FUNG"          "Fungi    "                              " " 
+"GACI"          "Bedstraw (Wide Leaves)"                  "Galium Circaezans  " 
+"GAHI"          "Creeping Snowberry"                      "Gaultheria Hispidula" 
+"GAPR"          "WinterGreen"                             "Gaultheria Procumbens" 
+"GATR"          "Bedstraw (Narrow Leaves)"                "Galium Triflorum  " 
+"GLIT"          "Green Litter  "                         " " 
+"GORE"          "Rattlesnake Plantain"                    "Goodyera Repens" 
+"GRAS"          "Grasses (Unidentified)    "             " " 
+"IMBI"          "Touch-me-not/Jewelweed"                  "Impatiens Biflora" 
+"KAPO"          "Bog Laurel"                              "Kalmia Polifolia " 
+"LALA"          "Tamarack (Larch)"                        "Larix Laricina" 
+"LAOC"          "Yellow Vetchling"                        "Lathyrus Ochrobucus" 
+"LAVE"          "Veiny (Purple) Vetch"                    "Lathyrus Venosus  " 
+"LEGR"          "Labrador Tea"                            "Ledum Groenlandicum  " 
+"LIBO"          "Twinflower"                              "Linnaea Borealis" 
+"LICH"          "Lichens    "                            " " 
+"LOCA"          "Honeysuckle"                             "Lonicera Canadensis  " 
+"LYAN"          "Running Club Moss"                       "Lycopodium Annotinum" 
+"LYCL"          "Hairy Club Moss"                         "Lycopodium Claratum" 
+"LYCO"          "Ground Cedar"                            "Lycopodium Complanatum" 
+"LYOB"          "Ground Pine"                             "Lycopodium Obscurum" 
+"MACA"          "Canadian Mayflower"                      "Maianthemum Canadense" 
+"MINT"          "Mint (Unidentified)  "                  " " 
+"MOSS"          "Mosses (Non-Sphagnum)"                   " " 
+"OSCI"          "Cinnamon Fern"                           "Osmunda Cinnamomea  " 
+"OSCL"          "Interrupted Fern"                        "Osmunda Claytoniana " 
+"PEPA"          "Early Sweet Coltsfoot"                   "Pestasites Palmata" 
+"PIBA"          "Pine, Jack"                              "Pinus Banksiana" 
+"PIGL"          "Spruce, White"                           "Picea Glauca" 
+"PIMA"          "Spruce, Black"                           "Picea Mariana" 
+"PIRE"          "Pine, Red"                               "Pinus Resinosa" 
+"PIST"          "Pine, White"                             "Pinus Strobus" 
+"POBA"          "Balsam Poplar"                           "Populus Balsamifera  " 
+"POGR"          "Aspen,  Big-Tooth"                       "Populus Gradidentata" 
+"POPE"          "May-Apple (Mandrake)"                    "Podophyllum Pletatum" 
+"POPU"          "Solomon Seal"                            "Polygonatum Pubescens" 
+"POTR"          "Aspen, Trembling"                        "Populus Tremuloides" 
+"POVU"          "Polypody Fern"                           "Polypodium Vulgare " 
+"PRPE"          "Cherry, Pin"                             "Prunus Pennsylvanica" 
+"PRVE"          "Cherry, Choke"                           "Prunus Virginiana" 
+"PTAQ"          "Bracken Fern"                            "Pteridium Aquilinum" 
+"PYEL"          "Shinleaf"                                "Pyrola Elliptica" 
+"QUBO"          "Oak,  Northern Red"                      "Quercus Borealis" 
+"QUPA"          "Oak,  Pin"                               "Quercus Palustris" 
+"RIBE"          "Gooseberry/Currant"                      "Ribes Spp.  " 
+"ROCK"          "Rocks"                                   " " 
+"ROSA"          "Roses"                                   "Rosa Spp.  " 
+"RUBU"          "Brier"                                   "Rubus Spp.  " 
+"SALX"          "Willows"                                 "Salix Spp.  " 
+"SAMA"          "Black Snakeroot"                         "Sanicula Marilandica" 
+"SAPU"          "Pitcher Plant"                           "Sarracenia Purpurea" 
+"SEDG"          "Sedges (Uunidentified)"                  " " 
+"SMTR"          "Bog False Solomon Seal"                  "Smilacina Trifoliata" 
+"SOAM"          "Mountain Ash"                            "Sorbus Americana " 
+"SOLI"          "Goldenrod"                               "Solidago Spp.  " 
+"SPHA"          "Sphagnum Moss"                           "Sphagnum Spp.  " 
+"STRO"          "Twisted Stalk"                           "Streptopus Roseus" 
+"TRBO"          "Starflower"                              "Trientalis Borealis" 
+"TRCE"          "Noffing Trillium"                        "Trillium Cernuum" 
+"VAAN"          "Lowbush Blueberry"                       "Vaccinium Angustifolium" 
+"VAMA"          "Large Cranberry"                         "Vaccinium Macrocarpon" 
+"VAOX"          "Small Cranberry"                         "Vaccinium Oxycoccus" 
+"VIOL"          "Violet"                                  "Viola Spp.  " 
+"VIRE"          "Arrowood"                                "Viburnum Recognitum  " 
+"VITR"          "Highbush Cranberry"                      "Viburnum Trilobum " 
+"VTCH"          "Vetch"                                  " " 
